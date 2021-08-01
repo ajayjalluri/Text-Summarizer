@@ -95,7 +95,7 @@ def generate_summary(text, top_n=5):
 
 
 
-@app.route('/summary/',methods = ['POST'])
+@app.route('/summary/')
 def home() :
 
     txt = request.args.get("Text")
